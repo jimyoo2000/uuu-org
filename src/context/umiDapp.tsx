@@ -104,7 +104,6 @@ const UMIDapptContextProvider: FC = ({ children }) => {
         if (typeof ethereum !== 'undefined') {
             if (typeof ethereum.on === 'function') {
                 ethereum.removeAllListeners()
-
                 ethereum.on('accountsChanged', (accounts: string[]) => {
                     if (accounts.length === 0) {
                         // MetaMask is locked or the user has not connected any accounts

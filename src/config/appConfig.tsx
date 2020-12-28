@@ -87,43 +87,6 @@ const chrimasContractAddrs = {
 }
 export const chrimasContractAddr = chrimasContractAddrs[env];
 export const chrimasContractScanUrl = etherscanUrl[env] + chrimasContractAddr;
-
-
-const naviData = [
-    {
-        title: "Unimine",
-        ref: "/",
-    },
-    {
-        title: "UMI",
-        ref: "/prefund"
-    },
-    {
-        title: "Pool",
-        ref: "/pool",
-        items: [
-            {
-                title: "Unisage V2",
-                enable: true,
-                ref: "/sage"
-            },
-            {
-                title: "Liquidity Mining",
-                enable: false,
-                ref: "/pool"
-            }, ,
-            {
-                title: "Custom Mining",
-                enable: false,
-                ref: "/pool"
-            }]
-    },
-    {
-        title: "Register",
-        ref: "/register"
-    }
-]
-
 //sale 
 export const salePeriodIndex = [0, 1, 2, 3];
 export const salePeriodName = ["01", "02", "03", "04"];

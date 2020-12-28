@@ -76,41 +76,6 @@ var chrimasContractAddrs = {
 };
 exports.chrimasContractAddr = chrimasContractAddrs[exports.env];
 exports.chrimasContractScanUrl = etherscanUrl[exports.env] + exports.chrimasContractAddr;
-var naviData = [
-    {
-        title: "Unimine",
-        ref: "/"
-    },
-    {
-        title: "UMI",
-        ref: "/prefund"
-    },
-    {
-        title: "Pool",
-        ref: "/pool",
-        items: [
-            {
-                title: "Unisage V2",
-                enable: true,
-                ref: "/sage"
-            },
-            {
-                title: "Liquidity Mining",
-                enable: false,
-                ref: "/pool"
-            }, ,
-            {
-                title: "Custom Mining",
-                enable: false,
-                ref: "/pool"
-            }
-        ]
-    },
-    {
-        title: "Register",
-        ref: "/register"
-    }
-];
 //sale 
 exports.salePeriodIndex = [0, 1, 2, 3];
 exports.salePeriodName = ["01", "02", "03", "04"];
