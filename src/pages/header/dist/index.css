@@ -1,0 +1,138 @@
+.g-headD {
+  height: 1.3rem;
+}
+.g-head {
+  position: absolute;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+.g-head .wal {
+  min-height: 1.3rem;
+  position: relative;
+}
+.g-head a.logo {
+  display: block;
+  background: url("/assets/image/logo.png") center no-repeat;
+  background-size: 100%;
+  width: 1.46rem;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: auto;
+  top: 0;
+  bottom: auto;
+}
+.g-head a.logo.logo2 {
+  width: 2.5rem;
+  background-image: url("/assets/image/logo250.png");
+}
+.g-nav {
+  position: absolute;
+  z-index: 10;
+  left: auto;
+  right: 0;
+  top: 0.55rem;
+  bottom: auto;
+}
+.g-nav li {
+  margin-left: 0.77rem;
+}
+.g-nav a.name {
+  display: block;
+  height: 0.48rem;
+  line-height: 0.48rem;
+  font-size: 0.16rem;
+  text-transform: uppercase;
+  font-family: 'Rubik-Bold';
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+}
+.g-nav a.name.on {
+  padding: 0 0.23rem;
+  background: #F35027;
+}
+.g-nav a.name:hover {
+  color: #fff;
+}
+.g-nav a.name.on:hover {
+  color: #fff;
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50px;
+  }
+  .wal {
+    max-width: 8rem;
+  }
+  body.navShow {
+    overflow: hidden;
+  }
+  body.navShow .g-head .navA {
+    background-image: url("/assets/image/close.png");
+  }
+  body.navShow .g-nav {
+    right: 0;
+  }
+  .g-headD {
+    height: 1.36rem;
+  }
+  .g-head .wal {
+    min-height: 1.36rem;
+    margin: 0 0.16rem;
+  }
+  .g-head a.logo {
+    width: 2.92rem;
+  }
+  .g-head a.logo.logo2 {
+    width: 3.6rem;
+  }
+  .g-head .navA {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: auto;
+    right: -0.16rem;
+    top: 0;
+    bottom: auto;
+    width: 1.36rem;
+    height: 1.36rem;
+    background: url("/assets/image/navA.png") center no-repeat;
+    background-size: 0.48rem;
+  }
+  .g-nav {
+    position: fixed;
+    overflow-y: auto;
+    width: 100%;
+    background: #000;
+    right: -100%;
+    top: 1.36rem;
+    bottom: 0;
+  }
+  .g-nav li {
+    margin: 0;
+    width: 100%;
+  }
+  .g-nav a.name {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.32rem;
+    padding-left: 0.4rem;
+  }
+  .g-nav a.name.on {
+    width: 3rem;
+    padding: 0;
+    text-align: center;
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.2rem;
+  }
+}

@@ -1,4 +1,4 @@
-# uuu-ORG
+# UUU-ORG
 
 ## Command
 

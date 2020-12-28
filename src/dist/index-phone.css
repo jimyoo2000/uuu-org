@@ -1,0 +1,1536 @@
+a,
+.transition,
+:before,
+img,
+.g-nav {
+  transition: All 0.5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+}
+.flexColumn {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+.itemsCenter {
+  align-items: center;
+  -webkit-align-items: center;
+}
+.justifyCenter {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.flexAround {
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+.flexBetween {
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.flexWrap {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50px;
+  }
+  .wal {
+    max-width: 8rem;
+  }
+  .g-headD {
+    height: 1.36rem;
+  }
+  .g-head .wal {
+    min-height: 1.36rem;
+    margin: 0 0.16rem;
+  }
+  .g-head a.logo {
+    width: 2.92rem;
+  }
+  .g-head a.logo.logo2 {
+    width: 3.6rem;
+  }
+  .g-head .navA {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: auto;
+    right: -0.16rem;
+    top: 0;
+    bottom: auto;
+    width: 1.36rem;
+    height: 1.36rem;
+    background: url("/assets/image/navA.png") center no-repeat;
+    background-size: 0.48rem;
+  }
+  .g-head.navShow .g-head .navA {
+    background-image: url("/assets/image/close.png");
+  }
+  .g-head.navShow .g-nav {
+    right: 0;
+  }
+  .g-head .wal {
+    min-height: 1.36rem;
+    margin: 0 0.16rem;
+  }
+  .g-head a.logo {
+    width: 2.92rem;
+  }
+  .g-head a.logo.logo2 {
+    width: 3.6rem;
+  }
+  .g-head .navA {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    left: auto;
+    right: -0.16rem;
+    top: 0;
+    bottom: auto;
+    width: 1.36rem;
+    height: 1.36rem;
+    background: url("/assets/image/navA.png") center no-repeat;
+    background-size: 0.48rem;
+  }
+  .g-nav {
+    position: fixed;
+    overflow-y: auto;
+    width: 100%;
+    background: #000;
+    right: -100%;
+    top: 1.36rem;
+    bottom: 0;
+  }
+  .g-nav li {
+    margin: 0;
+    width: 100%;
+  }
+  .g-nav a.name {
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.32rem;
+    padding-left: 0.4rem;
+  }
+  .g-nav a.name.btn {
+    width: 3rem;
+    padding: 0;
+    text-align: center;
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+  }
+  .g-nav .list {
+    display: block;
+  }
+  .g-nav .list dd {
+    font-size: 0.3rem;
+    color: #8E8E8E;
+    line-height: 1rem;
+    padding-left: 0.68rem;
+  }
+  .g-nav .list a {
+    display: block;
+  }
+  .g-foot .wal {
+    padding: 1rem 0.4rem;
+  }
+  .g-foot .logo {
+    width: 3.1rem;
+  }
+  .g-foot .share {
+    padding-top: 0.54rem;
+  }
+  .g-foot .share dl dd {
+    width: 0.48rem;
+    margin-right: 0.56rem;
+  }
+  .g-foot .share p {
+    padding-top: 0.4rem;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .g-foot .list {
+    position: static;
+  }
+  .g-foot .list li {
+    width: 100%;
+    line-height: 0.86rem;
+    padding-top: 0.6rem;
+  }
+  .g-foot .list li h3 {
+    font-size: 0.26rem;
+  }
+  .g-foot .list li dd {
+    font-size: 0.28rem;
+  }
+  .g-foot .list li:last-child {
+    width: 100%;
+  }
+  /*index*/
+  .index-1 {
+    min-height: 1rem;
+    background: none;
+    padding-bottom: 1.3rem;
+  }
+  .index-1 .title {
+    padding: 1.2rem 0 0.72rem 0;
+    width: 6.3rem;
+    margin: 0 auto;
+  }
+  .index-1 .title em {
+    font-size: 0.2rem;
+  }
+  .index-1 .title div {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .index-1 .list ul {
+    width: 6.88rem;
+  }
+  .index-1 .list li {
+    width: 1.48rem;
+    height: 1.7rem;
+    -moz-border-radius: 0.06rem;
+    -webkit-border-radius: 0.06rem;
+    border-radius: 0.06rem;
+    font-size: 0.26rem;
+  }
+  .index-1 .list li b {
+    font-size: 0.64rem;
+    line-height: 0.76rem;
+    padding: 0.26rem 0 0.24rem 0;
+  }
+  .index-1 .list p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.72rem 0 0.84rem 0;
+    width: 6.34rem;
+    margin: 0 auto;
+  }
+  .index-1 .msg,
+  .fund-1 .msg {
+    max-width: 6.7rem;
+    -moz-border-radius: 0.45rem;
+    -webkit-border-radius: 0.45rem;
+    border-radius: 0.45rem;
+    padding: 0.12rem 0.38rem 0.05rem 1.58rem;
+  }
+  .index-1 .msg .ico,
+  .fund-1 .msg .ico {
+    width: 1.12rem;
+    left: 0.16rem;
+    top: 0.12rem;
+  }
+  .index-1 .msg p,
+  .fund-1 .msg p {
+    font-size: 0.24rem;
+    line-height: 0.34rem;
+    padding-bottom: 0.12rem;
+  }
+  .index-2 {
+    max-width: 6.7rem;
+  }
+  .index-2 .img {
+    width: 4.96rem;
+    margin: 0 auto;
+  }
+  .index-2 .col {
+    width: 100%;
+  }
+  .index-2 .col .title em {
+    font-size: 0.2rem;
+  }
+  .index-2 .col .title div {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+    padding-top: 0.38rem;
+  }
+  .index-2 .col .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.42rem 0 0.76rem 0;
+  }
+  .index-2 .col .btn a {
+    width: 4.2rem;
+    height: 1.03rem;
+    -moz-border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 0.28rem;
+  }
+  .reg-1 {
+    min-height: 1rem;
+    background: none;
+    width: 6.7rem;
+    margin: 0 auto;
+    padding: 0.9rem 0 1.42rem 0;
+  }
+  .reg-1 .title {
+    padding: 0;
+  }
+  .reg-1 .title em {
+    font-size: 0.6rem;
+  }
+  .reg-1 .title div {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+    padding: 0.6rem 0 0.26rem 0;
+  }
+  .reg-1 .title p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .reg-1 .row .name {
+    font-size: 0.28rem;
+    padding: 0.56rem 0 0.3rem 0;
+  }
+  .reg-1 .row .input {
+    max-width: 100%;
+    height: 0.88rem;
+  }
+  .reg-1 .row .input input {
+    height: 0.88rem;
+    line-height: 0.56rem;
+    font-size: 0.28rem;
+  }
+  .reg-1 .check {
+    margin-top: 0.6rem;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-left: 0.52rem;
+    background-position: left 0.12rem;
+    background-size: 0.34rem;
+  }
+  .reg-1 .submit {
+    padding: 0.6rem 0 0 0;
+  }
+  .reg-1 .submit div {
+    width: 5.02rem;
+    height: 1.12rem;
+    margin: 0 auto;
+    -moz-border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    border-radius: 0.6rem;
+  }
+  .reg-1 .submit input {
+    height: 1.12rem;
+    font-size: 0.32rem;
+  }
+  .red-2 .title {
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    padding-bottom: 0.4rem;
+    text-align: center;
+  }
+  .red-2 .list {
+    width: 5.04rem;
+    margin: 0 auto;
+  }
+  .red-2 li {
+    width: 100%;
+    height: 7.1rem;
+    -moz-border-radius: 0.16rem;
+    -webkit-border-radius: 0.16rem;
+    border-radius: 0.16rem;
+    margin-bottom: 0.6rem;
+  }
+  .red-2 li .ico {
+    width: 1.42rem;
+  }
+  .red-2 li .name {
+    font-size: 0.32rem;
+    padding: 0.26rem 0 0.88rem 0;
+  }
+  .red-2 li div.btn {
+    padding-bottom: 1rem;
+  }
+  .red-2 li div.btn dd {
+    padding: 0 0.12rem;
+  }
+  .red-2 li div.btn dd img {
+    width: 0.48rem;
+  }
+  .red-2 li a.btn {
+    font-size: 0.32rem;
+    width: 4.26rem;
+    height: 1.14rem;
+    -moz-border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    border-radius: 0.6rem;
+  }
+  .red-2 li a.btn em {
+    min-width: 2.2rem;
+  }
+  .red-2 li a.btn img {
+    width: 0.4rem;
+    margin-left: 0.2rem;
+  }
+  .regOk {
+    background: none;
+    padding: 0.7rem 0.3rem 2rem 0.3rem;
+  }
+  .regOk .title {
+    padding: 0.28rem 0 0.26rem 0;
+  }
+  .regOk .title em {
+    font-size: 0.6rem;
+  }
+  .regOk .title div {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+    padding-top: 0.6rem;
+  }
+  .regOk .msg {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .regOk .msg p {
+    padding-bottom: 0.2rem;
+  }
+  .regOk .msg p em {
+    display: block;
+  }
+  .regOk .btn a {
+    width: 5.02rem;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    font-size: 0.32rem;
+    margin: 0.2rem;
+  }
+  .reg-layer .container {
+    width: 7.1rem;
+    padding: 0.98rem 0 0.66rem 0.52rem;
+  }
+  .reg-layer .container .logo {
+    width: 0.52rem;
+  }
+  .reg-layer .container .msg {
+    font-size: 0.44rem;
+    line-height: 0.74rem;
+    width: 3.4rem;
+    padding: 0.42rem 0;
+    min-height: 5.2rem;
+  }
+  .reg-layer .container .info {
+    width: 4.6rem;
+  }
+  .reg-layer .container .info:before {
+    left: -0.24rem;
+    top: -0.24rem;
+    width: 0.58rem;
+    height: 0.58rem;
+  }
+  .reg-layer .container .info h3 {
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+  }
+  .reg-layer .container .info p {
+    font-size: 0.26rem;
+    line-height: 0.38rem;
+    padding: 0.18rem 0 0.28rem 0;
+  }
+  .umipool {
+    max-width: 7.1rem;
+    background: url("/assets/image/bg.jpg") center top repeat-y;
+    background-size: 100%;
+    padding-top: 0.6rem;
+  }
+  .umipool .container {
+    padding: 0.6rem 0.14rem;
+  }
+  .umipool .container .title {
+    padding-bottom: 0.36rem;
+  }
+  .umipool .container .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-bottom: 0.62rem;
+  }
+  .umipool .list {
+    padding: 0 0.4rem;
+  }
+  .umipool .list:after {
+    display: none;
+  }
+  .umipool .list .title {
+    padding: 0.46rem 0 0.9rem 0;
+  }
+  .umipool .list .title h2 {
+    font-size: 0.4rem;
+    padding-right: 0.2rem;
+  }
+  .umipool .list .title a {
+    width: 0.48rem;
+  }
+  .umipool .list .msg {
+    position: static;
+    width: 4.24rem;
+    margin-left: auto;
+    padding: 0;
+    height: 0.6rem;
+    margin-bottom: 0.74rem;
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .umipool .list .msg p {
+    font-size: 0.32rem;
+  }
+  .umipool .list .msg a {
+    width: 0.4rem;
+  }
+  .umipool .list .msg .copybtn {
+    width: 0.4rem;
+  }
+  .umipool .list .col {
+    width: 100%;
+  }
+  .umipool .list .col.col-1 {
+    border-bottom: #98430D dashed 2px;
+    margin-bottom: 0.48rem;
+  }
+  .umipool .list .col li {
+    height: 1.32rem;
+    width: 32%;
+  }
+  .umipool .list .col li:nth-child(1),
+  .umipool .list .col li:nth-child(4) {
+    width: 30%;
+  }
+  .umipool .list .col li:nth-child(2),
+  .umipool .list .col li:nth-child(5) {
+    width: 38%;
+  }
+  .umipool .list .col li b {
+    font-size: 0.32rem;
+  }
+  .umipool .list .col li div {
+    font-size: 0.24rem;
+    padding-top: 0.14rem;
+  }
+  .umipool .list .col .content {
+    font-size: 0.32rem;
+    line-height: 0.6rem;
+    opacity: 1;
+    padding-bottom: 1rem;
+  }
+  .umipool .list .col .btn {
+    width: 4rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding-bottom: 0.18rem;
+  }
+  .umipool .list .col .btn a {
+    width: 100%;
+    height: 0.92rem;
+    font-size: 0.28rem;
+    margin-bottom: 0.64rem;
+  }
+  .umipool .list .col .btn a img {
+    width: 0.4rem;
+  }
+  .umipool .row {
+    padding: 0.6rem 0 1.57rem 0;
+  }
+  .umipool .row .col-1,
+  .umipool .row .col-2 {
+    width: 100%;
+    margin-bottom: 0.6rem;
+    min-height: 6.18rem;
+    padding: 0.8rem;
+  }
+  .umipool .row .title {
+    font-size: 0.48rem;
+    padding-bottom: 0.6rem;
+  }
+  .umipool .row .content {
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    width: 100%;
+  }
+  .sage-1:before {
+    height: 7rem;
+  }
+  .sage-1 .wal {
+    max-width: 7.1rem;
+  }
+  .sage-1 h2 {
+    max-width: 6rem;
+  }
+  .sage-1 .container p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    max-width: 6.84rem;
+  }
+  .sage-1 .container .btn {
+    padding: 0.54rem 0 0.08rem 0;
+  }
+  .sage-1 .container .btn a {
+    font-size: 0.28rem;
+    margin: 0 0 0.4rem 0;
+    width: 100%;
+  }
+  .sage-1 .container .btn a img {
+    width: 0.4rem;
+  }
+  .sage-1 .list {
+    padding-bottom: 0;
+    width: 6.96rem;
+    margin: 0 auto;
+  }
+  .sage-1 .list li {
+    width: 100%;
+    margin-bottom: 0.4rem;
+    height: 2.06rem;
+  }
+  .sage-1 .list li h3 {
+    font-size: 0.64rem;
+    line-height: 0.76rem;
+    padding: 0.4rem 0 0.2rem 0;
+  }
+  .sage-1 .list li div {
+    font-size: 0.26rem;
+  }
+  .sage-1 .container2 {
+    padding: 0.5rem 0.4rem 0 0.4rem;
+  }
+  .sage-1 .container2 .msg {
+    width: 4.24rem;
+    padding: 0;
+    height: 0.6rem;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-left: auto;
+  }
+  .sage-1 .container2 .msg p {
+    font-size: 0.32rem;
+  }
+  .sage-1 .container2 .msg a {
+    width: 0.4rem;
+  }
+  .sage-1 .container2 .row {
+    padding-top: 0.74rem;
+  }
+  .sage-1 .container2 .row ul {
+    width: 100%;
+  }
+  .sage-1 .container2 .row li {
+    width: 32%;
+    padding-bottom: 0.8rem;
+  }
+  .sage-1 .container2 .row li:nth-child(1),
+  .sage-1 .container2 .row li:nth-child(4) {
+    width: 30%;
+  }
+  .sage-1 .container2 .row li:nth-child(2),
+  .sage-1 .container2 .row li:nth-child(5) {
+    width: 38%;
+  }
+  .sage-1 .container2 .row li b {
+    font-size: 0.32rem;
+  }
+  .sage-1 .container2 .row li div {
+    font-size: 0.24rem;
+    padding-top: 0.14rem;
+  }
+  .sage-1 .container2 .row .btn {
+    width: 4rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding-bottom: 0.18rem;
+  }
+  .sage-1 .container2 .row .btn a {
+    width: 100%;
+    height: 0.92rem;
+    font-size: 0.28rem;
+    margin-bottom: 0.64rem;
+  }
+  .sage-1 .container2 .row .btn a img {
+    width: 0.4rem;
+  }
+  .sage-1 .btn2 {
+    padding-top: 0.07rem;
+  }
+  .sage-1 .btn2 a {
+    -moz-border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 0.16rem;
+    text-transform: uppercase;
+    height: 0.56rem;
+    margin: 0 auto;
+    width: 3.2rem;
+    font-weight: bold;
+  }
+  .sage-1 .btn2 a img {
+    width: 0.2rem;
+    position: relative;
+    left: 0.47rem;
+  }
+  .sage-2 {
+    max-width: 6.96rem;
+  }
+  .sage-2 .title {
+    font-size: 0.2rem;
+    padding-bottom: 0.38rem;
+  }
+  .sage-2 .col {
+    width: 100%;
+    padding-bottom: 0.64rem;
+  }
+  .sage-2 .col .name {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .sage-2 .col .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.38rem 0 0.24rem 0;
+  }
+  .sage-2 .col .btn a {
+    font-size: 0.32rem;
+  }
+  .sage-2 .col .btn a img {
+    width: 0.4rem;
+  }
+  .sage-2 .list {
+    width: 100%;
+    min-height: 6.14rem;
+    padding: 0.8rem;
+  }
+  .sage-2 .list .name {
+    font-size: 0.32rem;
+    line-height: 0.6rem;
+  }
+  .sage-2 .list h3 {
+    font-size: 0.48rem;
+    padding: 0.3rem 0 0.8rem 0;
+  }
+  .sage-3 {
+    max-width: 7.1rem;
+  }
+  .sage-3 .container .title {
+    font-size: 0.2rem;
+  }
+  .sage-3 .container h3 {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+    padding: 0.3rem 0 0.24rem 0;
+  }
+  .sage-3 .container p {
+    padding-bottom: 0.5rem;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .sage-3 .list li .line {
+    height: 0.14rem;
+  }
+  .sage-3 .list li dl {
+    padding-top: 0;
+  }
+  .sage-3 .list li dl dd {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .sage-3 .list li dl dd em {
+    width: 2.54rem;
+  }
+  .sage-3 .list li.li_01 .line {
+    height: 0.56rem;
+  }
+  .sage-3 .list li.li_02 .line {
+    height: 0.42rem;
+  }
+  .sage-3 .list li.li_03 .line {
+    height: 0.28rem;
+  }
+  .sage-3 .list ul.ul-1 {
+    padding-top: 0.16rem;
+  }
+  .sage-3 .list ul.ul-1 li {
+    width: 100%;
+    padding-top: 0.3rem;
+  }
+  .sage-4 {
+    padding: 0 0 2rem 0;
+    max-width: 6.7rem;
+  }
+  .sage-4 .img {
+    width: 4.96rem;
+    margin: 0 auto;
+  }
+  .sage-4 .col {
+    width: 100%;
+  }
+  .sage-4 .col .title em {
+    font-size: 0.2rem;
+  }
+  .sage-4 .col .title div {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+    padding-top: 0.38rem;
+  }
+  .sage-4 .col .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.42rem 0 0.36rem 0;
+  }
+  .sage-4 .col .msg {
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    padding-bottom: 0.64rem;
+  }
+  .sage-4 .col .msg .name {
+    line-height: 0.6rem;
+    padding-bottom: 0.1rem;
+  }
+  .sage-4 .col .btn {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .sage-4 .col .btn a {
+    width: 4.2rem;
+    height: 1.03rem;
+    font-size: 0.28rem;
+    margin-bottom: 0.3rem;
+  }
+  .sage-4 .col .btn a img {
+    width: 0.4rem;
+  }
+  .g-foot2 .wal {
+    padding: 1.06rem 0.34rem;
+  }
+  .g-foot2 .logo {
+    width: 3.1rem;
+  }
+  .g-foot2 .list {
+    position: static;
+    width: 100%;
+    padding-top: 1.64rem;
+  }
+  .g-foot2 .list li {
+    width: 100%;
+    padding-bottom: 0.32rem;
+  }
+  .g-foot2 .list .name {
+    font-size: 0.26rem;
+    padding-bottom: 0.58rem;
+  }
+  .g-foot2 .list dd {
+    font-size: 0.32rem;
+    padding-bottom: 0.48rem;
+  }
+  .sage_dashboard {
+    background-size: 100%;
+  }
+  .sage_dashboard .wal {
+    max-width: 7.1rem;
+  }
+  .sage_dashboard .title {
+    width: 5.12rem;
+    padding: 1.36rem 0 0.8rem 0;
+    margin-left: -2.56rem;
+  }
+  .sage_dashboard .container h2 {
+    font-size: 0.32rem;
+    padding-bottom: 0.16rem;
+  }
+  .sage_dashboard .container .row {
+    padding-bottom: 0.54rem;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+  }
+  .sage_dashboard .container .row .col {
+    width: 4.4rem;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .sage_dashboard .container .row .col div {
+    width: 100%;
+    height: 0.57rem;
+    margin-right: 0;
+    margin-top: 0.24rem;
+    padding: 0 0.4rem;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+  .sage_dashboard .container .row .col div p {
+    font-size: 0.28rem;
+    margin-bottom: 0rem;
+  }
+  .sage_dashboard .container .row .col div a {
+    width: 0.4rem;
+  }
+  .sage_dashboard .container .row a.btn {
+    width: 1.62rem;
+    height: 0.57rem;
+    font-size: 0.32rem;
+    line-height: 0.57rem;
+  }
+  .sage_dashboard .container2 {
+    padding: 0.8rem 0 0.54rem 0.8rem;
+  }
+  .sage_dashboard .container2 li {
+    width: 100%;
+  }
+  .sage_dashboard .container2 li b {
+    font-size: 0.48rem;
+    line-height: 0.56rem;
+  }
+  .sage_dashboard .container2 li div {
+    font-size: 0.26rem;
+    padding: 0.2rem 0 0.68rem 0;
+  }
+  .sage_dashboard .list h2 {
+    font-size: 0.32rem;
+    padding: 0.8rem 0 0.29rem 0;
+  }
+  .sage_dashboard .list li {
+    padding-bottom: 0.4rem;
+  }
+  .sage_dashboard .list li .box {
+    height: 4.52rem;
+    padding: 0 0.42rem;
+    -moz-border-radius: 0.12rem;
+    -webkit-border-radius: 0.12rem;
+    border-radius: 0.12rem;
+  }
+  .sage_dashboard .list li .box .level {
+    width: 1.84rem;
+    height: 1.84rem;
+    padding: 0.4rem 0.1rem 0 0.1rem;
+  }
+  .sage_dashboard .list li .box .btn a {
+    width: 1.62rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    font-size: 0.32rem;
+  }
+  .sage_dashboard .list li .box .row dl dd {
+    padding-left: 0.42rem;
+    width: 100%;
+  }
+  .sage_dashboard .list li .box .row .name {
+    padding-bottom: 0.3rem;
+    height: 1.7rem;
+    line-height: 0.4rem;
+    margin-bottom: 0;
+  }
+  .sage_dashboard .list li .box .row .name dd {
+    padding-bottom: 0.35rem;
+  }
+  .sage_dashboard .list li .box .row .name b {
+    font-size: 0.32rem;
+  }
+  .sage_dashboard .list li .box .row .name em {
+    font-size: 0.2rem;
+  }
+  .sage_dashboard .list li .box .row .info dd {
+    padding-top: 0.46rem;
+  }
+  .sage_dashboard .list li .box .row .info div {
+    height: 0.44rem;
+    padding: 0;
+    width: 1.56rem;
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .sage_dashboard .list li .box .row .info div em {
+    font-size: 0.28rem;
+  }
+  .sage_dashboard .list li .box .row .info b {
+    font-size: 0.28rem;
+  }
+  .fund-1 .title {
+    padding: 1.16rem 0.3rem;
+  }
+  .fund-1 .title div {
+    font-size: 0.2rem;
+  }
+  .fund-1 .title h2 {
+    padding: 0.52rem 0 0.22rem 0;
+    font-size: 0.48rem;
+    line-height: 1.1rem;
+  }
+  .fund-1 .title p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .fund-1 .list {
+    max-width: 6.7rem;
+    margin: 0 auto;
+  }
+  .fund-1 .list .col {
+    width: 100%;
+    min-height: 3.48rem;
+    padding: 0.3rem;
+    margin-bottom: 0.4rem;
+  }
+  .fund-1 .list .col h3 {
+    min-height: 1.06rem;
+    line-height: 0.46rem;
+    padding-bottom: 0.14rem;
+    font-size: 0.28rem;
+  }
+  .fund-1 .list .col ul {
+    width: 100%;
+  }
+  .fund-1 .list .col li {
+    width: 1.34rem;
+    height: 1.72rem;
+    font-size: 0.22rem;
+  }
+  .fund-1 .list .col li b {
+    font-size: 0.48rem;
+    line-height: 0.56rem;
+    padding: 0.32rem 0 0.28rem 0;
+  }
+  .fund-1 .list .col-2 ul {
+    width: 100%;
+    background-size: 0.3rem;
+  }
+  .fund-1 .list .col-2 li {
+    width: 2.72rem;
+  }
+  .fund-1 .form {
+    width: 6.7rem;
+    padding: 0.42rem 0 1.2rem 0;
+  }
+  .fund-1 .form .input {
+    height: 0.9rem;
+    line-height: 0.9rem;
+  }
+  .fund-1 .form .input input {
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.48rem;
+    padding-left: 0.52rem;
+  }
+  .fund-1 .form .input em {
+    right: 0.3rem;
+    font-size: 0.48rem;
+  }
+  .fund-1 .form p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.58rem 0 0.74rem 0;
+  }
+  .fund-1 .form .submit {
+    width: 4rem;
+    height: 0.8rem;
+  }
+  .fund-1 .form .submit input {
+    height: 0.8rem;
+    font-size: 0.28rem;
+  }
+  .sage-4-2 {
+    padding: 1.42rem 0;
+  }
+  .fund-2 {
+    padding: 0 0.4rem 1.5rem 0.4rem;
+  }
+  .fund-2 .title {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .fund-2 li {
+    width: 100%;
+  }
+  .fund-2 li a {
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    padding: 0.76rem 0 0.26rem 0;
+  }
+  .landing-1 {
+    min-height: 6.76rem;
+    padding: 1.66rem 0.4rem 0.78rem 0.4rem;
+  }
+  .landing-1 .title {
+    width: 6rem;
+  }
+  .landing-1 .msg {
+    font-size: 0.26rem;
+    line-height: 0.3rem;
+    padding: 0.34rem 0 0.58rem 0;
+    max-width: 5.86rem;
+  }
+  .landing-1 .btn {
+    padding-bottom: 0.9rem;
+  }
+  .landing-1 .btn a {
+    width: 2.52rem;
+    height: 0.64rem;
+    line-height: 0.6rem;
+    margin-right: 0.34rem;
+    font-size: 0.24rem;
+  }
+  .landing-1 .tips {
+    height: 0.4rem;
+    font-size: 0.18rem;
+    width: 6.86rem;
+    position: relative;
+    left: -0.08rem;
+  }
+  .landing-1 .tips img {
+    width: 1.14rem;
+  }
+  .landing-1 .btn2 {
+    padding-bottom: 0.9rem;
+  }
+  .landing-1 .btn2 a {
+    font-size: 0.26rem;
+  }
+  .landing-1 .btn2 a img {
+    width: 0.48rem;
+  }
+  .landing-2 {
+    padding: 1.7rem 0.4rem;
+  }
+  .landing-2 .img {
+    width: 4.68rem;
+    margin: 0 auto;
+  }
+  .landing-2 .col {
+    width: 100%;
+    padding-top: 0.64rem;
+  }
+  .landing-2 .col .title div {
+    font-size: 0.2rem;
+  }
+  .landing-2 .col .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-2 .col .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-2 .col li {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0 0 0.26rem 0.64rem;
+  }
+  .landing-2 .col li:after {
+    width: 0.48rem;
+    height: 0.6rem;
+    background-size: 0.2rem;
+  }
+  .landing-3 {
+    padding: 1.07rem 0.4rem;
+  }
+  .landing-3 .title div {
+    font-size: 0.2rem;
+  }
+  .landing-3 .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-3 .title p {
+    padding: 0 0 0.66rem 0;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-3 .list {
+    margin-left: -0.18rem;
+    margin-right: -0.18rem;
+  }
+  .landing-3 .list li {
+    width: 100%;
+    padding: 0 0 0.6rem 0.3rem;
+  }
+  .landing-3 .list .box {
+    min-height: 6rem;
+    padding: 0.6rem 0.36rem;
+  }
+  .landing-3 .list .box .ico {
+    width: 1.2rem;
+  }
+  .landing-3 .list .box h3 {
+    font-size: 0.32rem;
+    padding: 0.32rem 0 0.4rem 0;
+  }
+  .landing-3 .list .box p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-4 {
+    padding: 1.4rem 0.4rem;
+  }
+  .landing-4 .title div {
+    font-size: 0.2rem;
+  }
+  .landing-4 .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-4 .title p {
+    padding: 0 0 0.2rem 0;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-4 .list {
+    margin-right: -0.4rem;
+    margin-left: -0.4rem;
+    background-size: 100%;
+    padding: 0 0.54rem;
+  }
+  .landing-4 .list li {
+    width: 100%;
+    padding-bottom: 0.6rem;
+  }
+  .landing-4 .list li .ico img {
+    height: 0.94rem;
+  }
+  .landing-4 .list li .name {
+    font-size: 0.2rem;
+    padding: 0.58rem 0 0.12rem 0;
+  }
+  .landing-4 .list li h3 {
+    font-size: 0.32rem;
+    padding-bottom: 0.12rem;
+  }
+  .landing-4 .list li p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .about {
+    background-position: center 1.62rem;
+    background-size: 7.1rem;
+    padding: 1.1rem 0.2rem;
+  }
+  .about .title div {
+    font-size: 0.2rem;
+  }
+  .about .title h2 {
+    padding: 0.22rem 0 0.26rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .about .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-bottom: 0.28rem;
+    max-width: 6.84rem;
+  }
+  .about .content p {
+    padding-bottom: 0.52rem;
+  }
+  .about .container {
+    padding: 0.5rem 0.5rem 0.82rem;
+  }
+  .about .container .logo {
+    width: 1.18rem;
+    padding-top: 0.18rem;
+  }
+  .about .container dl {
+    width: 4.6rem;
+  }
+  .about .container dl dd {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-bottom: 0.16rem;
+  }
+  .about .container dl dd em {
+    width: 2.4rem;
+  }
+  .about .container dl dt {
+    padding-top: 0.2rem;
+  }
+  .about .container dl dt a {
+    font-size: 0.28rem;
+    padding-right: 0.69rem;
+    background-size: 0.48rem;
+  }
+  .about .container .img {
+    width: 100%;
+    padding-top: 0.8rem;
+  }
+  .about .foot {
+    padding-top: 0.8rem;
+    font-size: 0.2rem;
+    line-height: 0.6rem;
+  }
+  .dashboard-head .wal {
+    height: 2.14rem;
+    padding: 0 0.1rem 0 0.3rem;
+  }
+  .dashboard-head .title h2 {
+    font-size: 0.48rem;
+  }
+  .dashboard-head .title div {
+    font-size: 0.28rem;
+  }
+  .dashboard-head .title div img {
+    margin-left: 0.1rem;
+    width: 0.48rem;
+  }
+  .dashboard-head .box {
+    width: 3.96rem;
+    -moz-border-radius: 0.14rem;
+    -webkit-border-radius: 0.14rem;
+    border-radius: 0.14rem;
+    padding: 0.09rem 0.2rem;
+    font-size: 0.28rem;
+  }
+  .dashboard-head .box dd {
+    line-height: 0.6rem;
+    padding: 0;
+  }
+  .sagev2_dashboard {
+    padding-top: 1.08rem;
+    /**/
+  }
+  .sagev2_dashboard .wal {
+    max-width: 7.1rem;
+  }
+  .sagev2_dashboard h2.title {
+    font-size: 0.32rem;
+    padding-bottom: 0.32rem;
+  }
+  .sagev2_dashboard .container {
+    margin-top: -0.2rem;
+  }
+  .sagev2_dashboard .container .row {
+    padding-bottom: 0.54rem;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+  }
+  .sagev2_dashboard .container .row .col {
+    width: 4.5rem;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  .sagev2_dashboard .container .row .col div {
+    width: 100%;
+    height: 0.57rem;
+    margin-right: 0;
+    margin-top: 0.24rem;
+    padding: 0 0.4rem;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+  }
+  .sagev2_dashboard .container .row .col div p {
+    font-size: 0.28rem;
+  }
+  .sagev2_dashboard .container .row .col div a {
+    width: 0.4rem;
+  }
+  .sagev2_dashboard .container .row a.btn {
+    width: 1.62rem;
+    height: 0.57rem;
+    font-size: 0.32rem;
+    line-height: 0.57rem;
+  }
+  .sagev2_dashboard .container2 {
+    padding: 0.68rem 0 0 0.6rem;
+    margin-bottom: 0.8rem;
+  }
+  .sagev2_dashboard .container2 li {
+    width: 100%;
+    padding-bottom: 0.68rem;
+  }
+  .sagev2_dashboard .container2 li b {
+    font-size: 0.48rem;
+    line-height: 0.56rem;
+  }
+  .sagev2_dashboard .container2 li div {
+    font-size: 0.26rem;
+    padding: 0.2rem 0 0 0;
+  }
+  .sagev2_dashboard .container2 li a.btn {
+    width: 2.4rem;
+    height: 0.8rem;
+    font-size: 0.32rem;
+    line-height: 0.8rem;
+    margin-left: 0;
+  }
+  .sagev2_dashboard .list li {
+    padding-bottom: 0.4rem;
+  }
+  .sagev2_dashboard .list li .box {
+    height: 4.52rem;
+    padding: 0 0.42rem;
+    -moz-border-radius: 0.12rem;
+    -webkit-border-radius: 0.12rem;
+    border-radius: 0.12rem;
+  }
+  .sagev2_dashboard .list li .box .level {
+    width: 1.84rem;
+    height: 1.84rem;
+    padding: 0.4rem 0.1rem 0 0.1rem;
+  }
+  .sagev2_dashboard .list li .box .btn a {
+    width: 1.62rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    font-size: 0.32rem;
+  }
+  .sagev2_dashboard .list li .box .row dl dd {
+    padding-left: 0.42rem;
+    width: 100%;
+  }
+  .sagev2_dashboard .list li .box .row .name {
+    padding-bottom: 0.3rem;
+    height: 1.7rem;
+    line-height: 0.4rem;
+    margin-bottom: 0;
+  }
+  .sagev2_dashboard .list li .box .row .name dd {
+    padding-bottom: 0.35rem;
+  }
+  .sagev2_dashboard .list li .box .row .name b {
+    font-size: 0.32rem;
+  }
+  .sagev2_dashboard .list li .box .row .name em {
+    font-size: 0.2rem;
+  }
+  .sagev2_dashboard .list li .box .row .info dd {
+    padding-top: 0.46rem;
+  }
+  .sagev2_dashboard .list li .box .row .info div {
+    height: 0.44rem;
+    padding: 0.2;
+    width: 2.56rem;
+    justify-content: center;
+    -webkit-justify-content: left;
+  }
+  .sagev2_dashboard .list li .box .row .info div em {
+    font-size: 0.28rem;
+  }
+  .sagev2_dashboard .list li .box .row .info b {
+    font-size: 0.28rem;
+  }
+  .sagev2_dashboard .form {
+    -moz-border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    border-radius: 0.08rem;
+    padding: 0.6rem 0.4rem 0.42rem 0.4rem;
+  }
+  .sagev2_dashboard .form .input {
+    margin-right: 0;
+    width: 100%;
+    height: 0.88rem;
+  }
+  .sagev2_dashboard .form .input input {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    padding: 0 0.56rem;
+    font-size: 0.32rem;
+  }
+  .sagev2_dashboard .form .input em {
+    right: 0.56rem;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+  }
+  .sagev2_dashboard .form .submit {
+    width: 3.1rem;
+    height: 0.74rem;
+    margin: 0 auto;
+    order: 5;
+  }
+  .sagev2_dashboard .form .submit input {
+    height: 0.74rem;
+    font-size: 0.32rem;
+  }
+  .sagev2_dashboard .form .msg {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0.26rem 0 0.46rem 0;
+  }
+  .sagev2_dashboard .list2 li {
+    margin-bottom: 0.8rem;
+    -moz-border-radius: 0.12rem;
+    -webkit-border-radius: 0.12rem;
+    border-radius: 0.12rem;
+    padding: 0 0.6rem;
+  }
+  .sagev2_dashboard .list2 li .head {
+    padding: 0 0.6rem;
+    margin-right: -0.6rem;
+    margin-left: -0.6rem;
+    height: 2.54rem;
+    border-top-left-radius: 0.12rem;
+    -webkit-border-top-left-radius: 0.12rem;
+    border-top-right-radius: 0.12rem;
+    -webkit-border-top-right-radius: 0.12rem;
+  }
+  .sagev2_dashboard .list2 li .head h3 {
+    font-size: 0.32rem;
+    padding-bottom: 0.48rem;
+  }
+  .sagev2_dashboard .list2 li .head .price {
+    font-size: 0.28rem;
+  }
+  .sagev2_dashboard .list2 li .head .price b {
+    font-size: 0.48rem;
+  }
+  .sagev2_dashboard .list2 li .head .ico {
+    width: 1.04rem;
+    right: 0.48rem;
+    margin-top: -0.52rem;
+  }
+  .sagev2_dashboard .list2 li dl.info {
+    padding-top: 0.94rem;
+  }
+  .sagev2_dashboard .list2 li dl.info dd {
+    font-size: 0.28rem;
+    line-height: 0.34rem;
+    padding-bottom: 0.74rem;
+  }
+  .sagev2_dashboard .list2 li dl.info dd em {
+    width: 1.64rem;
+  }
+  .sagev2_dashboard .list2 li .btn {
+    padding-bottom: 0.8rem;
+  }
+  .sagev2_dashboard .list2 li .btn em,
+  .sagev2_dashboard .list2 li .btn a {
+    width: 2.62rem;
+    height: 0.78rem;
+    line-height: 0.78rem;
+    font-size: 0.32rem;
+  }
+  .landing-5 {
+    padding: 0 0.4rem;
+  }
+  .landing-5 .title h2 {
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-5 .title p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-5 .list li {
+    width: 33.333%;
+  }
+}
+/*# sourceMappingURL=phone.css.map */

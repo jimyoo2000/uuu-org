@@ -1,0 +1,192 @@
+/*index*/
+.fund-1 .msg {
+  max-width: 8.48rem;
+  margin: 0 auto;
+  background: #000;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  min-height: 0.45rem;
+  padding: 0.05rem 0.2rem 0.05rem 1.01rem;
+  color: #8E8E8E;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.01rem;
+}
+.fund-1 .msg .ico {
+  width: 0.85rem;
+  position: absolute;
+  z-index: 10;
+  left: 0.08rem;
+  right: auto;
+  top: 0.06rem;
+  bottom: auto;
+}
+.fund-1 .msg p {
+  font-size: 0.12rem;
+  line-height: 0.17rem;
+}
+.fund-1 .msg p a {
+  display: inline-block;
+  position: relative;
+}
+.fund-1 .msg p a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: #C9C9C9;
+}
+.fund-1 .title {
+  text-align: center;
+  padding: 0.55rem 0 0.43rem 0;
+}
+.fund-1 .title div {
+  font-size: 0.13rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  color: #F35027;
+  font-weight: bold;
+}
+.fund-1 .title h2 {
+  padding: 0.2rem 0 0.17rem 0;
+  font-size: 0.42rem;
+  line-height: 0.55rem;
+}
+.fund-1 .title p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+}
+.fund-1 .list .col {
+  width: 5.4rem;
+  min-height: 2.8rem;
+  background: #F35027;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0.4rem;
+}
+.fund-1 .list .col h3 {
+  min-height: 0.76rem;
+  line-height: 0.23rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.16rem;
+}
+.fund-1 .list .col ul {
+  width: 3.76rem;
+}
+.fund-1 .list .col li {
+  width: 0.82rem;
+  height: 1.05rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 0.13rem;
+  text-transform: uppercase;
+}
+.fund-1 .list .col li b {
+  display: block;
+  font-size: 0.32rem;
+  line-height: 0.38rem;
+  padding: 0.2rem 0 0.16rem 0;
+}
+.fund-1 .list .col-2 {
+  background: #f8b33c;
+}
+.fund-1 .list .col-2 ul {
+  width: 4.29rem;
+  background: url("/assets/image/img19.png") center no-repeat;
+  background-size: 0.19rem;
+}
+.fund-1 .list .col-2 li {
+  width: 1.94rem;
+}
+.fund-1 .form {
+  width: 4rem;
+  margin: 0 auto;
+  padding: 1rem 0 0.8rem 0;
+  text-align: center;
+}
+.fund-1 .form .input {
+  background: #fff;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  position: relative;
+}
+.fund-1 .form .input input {
+  width: 100%;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  font-size: 0.24rem;
+  padding-left: 0.26rem;
+  color: #000;
+}
+.fund-1 .form .input em {
+  position: absolute;
+  z-index: 10;
+  left: auto;
+  right: 0.26rem;
+  top: 0;
+  bottom: auto;
+  font-size: 0.24rem;
+  color: #DEDEDE;
+}
+.fund-1 .form p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+  padding: 0.17rem 0 0.55rem 0;
+}
+.fund-1 .form p em {
+  color: #F35027;
+}
+.fund-1 .form .submit {
+  width: 2rem;
+  height: 0.56rem;
+  background: #F35027;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+.fund-1 .form .submit input {
+  width: 100%;
+  height: 0.56rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.16rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fund-2 {
+  padding-bottom: 1.5rem;
+}
+.fund-2 .title {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+}
+.fund-2 li {
+  width: 5.4rem;
+  border-bottom: #302D2E solid 1px;
+}
+.fund-2 li a {
+  display: block;
+  font-size: 0.16rem;
+  color: #fff;
+  letter-spacing: 0.01rem;
+  line-height: 0.19rem;
+  padding: 0.36rem 0 0.13rem 0;
+}
+.fund-2 li a:hover {
+  color: #F35027;
+}

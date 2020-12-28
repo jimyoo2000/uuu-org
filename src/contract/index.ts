@@ -1,0 +1,6 @@
+export { default as sageContract } from './sage'
+export { default as sageV2Contract } from './sagev2'
+export { default as fundContract } from './fund'
+export { default as tokenContract } from './umi'
+export { default as uniswapContract } from './uniswap'
+export { default as chrismasContract } from './chrismas'

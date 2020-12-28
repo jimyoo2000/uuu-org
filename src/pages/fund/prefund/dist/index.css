@@ -1,0 +1,139 @@
+/*index*/
+.index-1 {
+  min-height: 7.33rem;
+  background: url("/assets/image/index-1.png") center 0.7rem no-repeat;
+  background-size: 10.63rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.index-1 .title {
+  padding: 0.77rem 0;
+}
+.index-1 .title em {
+  font-size: 0.13rem;
+  color: #F35027;
+  text-transform: uppercase;
+  font-family: 'Rubik-Medium';
+}
+.index-1 .title div {
+  font-size: 0.42rem;
+  line-height: 0.5rem;
+  padding-top: 0.2rem;
+  font-family: 'Rubik-Medium';
+}
+.index-1 .list ul {
+  width: 3.44rem;
+  margin: 0 auto;
+}
+.index-1 .list li {
+  width: 0.74rem;
+  height: 0.85rem;
+  background: #312D2B;
+  -moz-border-radius: 0.03rem;
+  -webkit-border-radius: 0.03rem;
+  border-radius: 0.03rem;
+  font-size: 0.13rem;
+  color: #8E8E8E;
+}
+.index-1 .list li b {
+  display: block;
+  color: #F35027;
+  font-size: 0.32rem;
+  line-height: 0.38rem;
+  padding: 0.13rem 0 0.12rem 0;
+}
+.index-1 .list p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+  padding: 0.54rem 0 0.77rem 0;
+}
+.index-1 .msg,
+.fund-1 .msg {
+  max-width: 8.48rem;
+  margin: 0 auto;
+  background: #000;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  min-height: 0.45rem;
+  padding: 0.05rem 0.2rem 0.05rem 1.01rem;
+  color: #8E8E8E;
+  text-align: left;
+  position: relative;
+  letter-spacing: 0.01rem;
+}
+.index-1 .msg .ico,
+.fund-1 .msg .ico {
+  width: 0.85rem;
+  position: absolute;
+  z-index: 10;
+  left: 0.08rem;
+  right: auto;
+  top: 0.06rem;
+  bottom: auto;
+}
+.index-1 .msg p,
+.fund-1 .msg p {
+  font-size: 0.12rem;
+  line-height: 0.17rem;
+}
+.index-1 .msg p a,
+.fund-1 .msg p a {
+  display: inline-block;
+  position: relative;
+}
+.index-1 .msg p a:after,
+.fund-1 .msg p a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: #C9C9C9;
+}
+.index-2 {
+  padding: 0 0 2rem 0;
+  max-width: 9.91rem;
+}
+.index-2 .img {
+  width: 3.72rem;
+}
+.index-2 .col {
+  width: 5.93rem;
+}
+.index-2 .col .title em {
+  font-size: 0.13rem;
+  color: #F35027;
+  text-transform: uppercase;
+  font-family: 'Rubik-Medium';
+}
+.index-2 .col .title div {
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+  padding-top: 0.16rem;
+  font-family: 'Rubik-Medium';
+}
+.index-2 .col .content {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+  padding: 0.2rem 0 0.6rem 0;
+}
+.index-2 .col .btn a {
+  width: 2.3rem;
+  height: 0.56rem;
+  background: #F35027;
+  -moz-border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  border-radius: 0.3rem;
+  font-size: 0.16rem;
+  font-family: 'Rubik-Bold';
+  color: #fff;
+}
+.index-2 .col .btn a img {
+  width: 0.2rem;
+  margin-left: 0.1rem;
+}

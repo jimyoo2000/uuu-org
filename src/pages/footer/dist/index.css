@@ -1,0 +1,14 @@
+.g-foot {
+  background: #1D1D1D;
+}
+.g-foot .wal {
+  height: 1.69rem;
+}
+.g-foot .logo {
+  width: 1.4rem;
+}
+.g-foot .list li {
+  font-size: 0.16rem;
+  text-transform: uppercase;
+  margin-left: 0.7rem;
+}

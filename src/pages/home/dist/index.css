@@ -1,0 +1,413 @@
+.landing-1 {
+  background: url("/assets/image/landing-1.png") center no-repeat;
+  min-height: 8.45rem;
+  background-size: cover;
+  padding: 2.5rem 0 0.48rem 0;
+}
+.landing-1 .title {
+  width: 9.12rem;
+}
+.landing-1 .msg {
+  font-size: 0.22rem;
+  line-height: 0.48rem;
+  color: #8E8E8E;
+  padding: 0.27rem 0 0.79rem 0;
+  max-width: 4.96rem;
+}
+.landing-1 .btn {
+  padding-bottom: 1.2rem;
+}
+.landing-1 .btn a {
+  display: block;
+  width: 2.2rem;
+  height: 0.56rem;
+  line-height: 0.52rem;
+  border: #D0D0D0 solid 0.02rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  margin-right: 0.4rem;
+  font-size: 0.16rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.landing-1 .btn a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0.2rem;
+  bottom: 0;
+  width: 0.2rem;
+  background: url("/assets/image/img20.png") center no-repeat;
+  background-size: 100%;
+}
+.landing-1 .btn a.on {
+  background: #F35027;
+  border-color: #F35027;
+  color: #fff;
+}
+.landing-1 .tips {
+  background: #000;
+  height: 0.31rem;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.12rem;
+  color: #8E8E8E;
+  width: 4.84rem;
+  letter-spacing: 0.01rem;
+}
+.landing-1 .tips img {
+  width: 0.85rem;
+}
+.landing-1 .tips p {
+  padding: 0 0.14rem 0 0.1rem;
+}
+.landing-1 .tips a {
+  position: relative;
+}
+.landing-1 .tips a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -0.02rem;
+  right: 0;
+  height: 1px;
+  background: #fff;
+}
+.landing-2 {
+  background: #161415;
+  padding: 1.7rem 0;
+}
+.landing-2 .img {
+  width: 5.26rem;
+}
+.landing-2 .col {
+  width: 5.46rem;
+}
+.landing-2 .col .title div {
+  font-size: 0.13rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  color: #F35027;
+  font-weight: bold;
+}
+.landing-2 .col .title h2 {
+  padding: 0.2rem 0 0.12rem 0;
+  font-size: 0.24rem;
+  line-height: 0.34rem;
+}
+.landing-2 .col .content {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+  padding-bottom: 0.18rem;
+}
+.landing-2 .col li {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  padding: 0 0 0.13rem 0.29rem;
+  position: relative;
+  color: #8E8E8E;
+}
+.landing-2 .col li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.13rem;
+  height: 0.3rem;
+  background: url("/assets/image/img13.png") center no-repeat;
+  background-size: 100%;
+}
+.landing-3 {
+  background: #181818;
+  padding: 1.07rem 0;
+  text-align: center;
+}
+.landing-3 .title div {
+  font-size: 0.13rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  color: #F35027;
+  font-weight: bold;
+}
+.landing-3 .title h2 {
+  padding: 0.2rem 0 0.16rem 0;
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+  max-width: 6.31rem;
+  margin: 0 auto;
+}
+.landing-3 .title p {
+  padding: 0 0 0.42rem 0;
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  max-width: 7.42rem;
+  margin: 0 auto;
+  color: #8E8E8E;
+}
+.landing-3 .list ul {
+  margin-left: -0.3rem;
+}
+.landing-3 .list li {
+  width: 33.333%;
+  padding: 0 0 0.3rem 0.3rem;
+}
+.landing-3 .list .box {
+  min-height: 3rem;
+  border: 1px solid #2F2F2F;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0.3rem 0.18rem;
+}
+.landing-3 .list .box .ico {
+  width: 0.6rem;
+  margin: 0 auto;
+}
+.landing-3 .list .box h3 {
+  font-size: 0.16rem;
+  padding: 0.16rem 0 0.2rem 0;
+  letter-spacing: 0.02rem;
+}
+.landing-3 .list .box p {
+  font-size: 0.16rem;
+  line-height: 0.26rem;
+  color: #8E8E8E;
+}
+.landing-4 {
+  background: #161415;
+  padding: 1.4rem 0;
+}
+.landing-4 .title {
+  text-align: center;
+}
+.landing-4 .title div {
+  font-size: 0.13rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02rem;
+  color: #F35027;
+  font-weight: bold;
+}
+.landing-4 .title h2 {
+  padding: 0.2rem 0 0.16rem 0;
+  font-size: 0.24rem;
+  line-height: 0.28rem;
+}
+.landing-4 .title p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  max-width: 6.01rem;
+  margin: 0 auto;
+  color: #8E8E8E;
+}
+.landing-4 .list {
+  background: url("/assets/image/landing-4.png") center top no-repeat;
+  background-size: 10.63rem;
+  min-height: 5.4rem;
+  padding-top: 0.51rem;
+}
+.landing-4 .list li {
+  width: 3.22rem;
+  position: relative;
+}
+.landing-4 .list li .ico {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: auto;
+  top: 0;
+  bottom: auto;
+}
+.landing-4 .list li .ico img {
+  height: 0.47rem;
+}
+.landing-4 .list li .name {
+  position: relative;
+  z-index: 11;
+  font-size: 0.13rem;
+  font-weight: bold;
+  color: #F35027;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  padding: 0.26rem 0 0.06rem 0;
+}
+.landing-4 .list li h3 {
+  font-size: 0.16rem;
+  padding-bottom: 0.06rem;
+  letter-spacing: 0.01rem;
+}
+.landing-4 .list li p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+  color: #8E8E8E;
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 50px;
+  }
+  .wal {
+    max-width: 8rem;
+  }
+  body.navShow {
+    overflow: hidden;
+  }
+  body.navShow .g-head .navA {
+    background-image: url("/assets/image/close.png");
+  }
+  body.navShow .g-nav {
+    right: 0;
+  }
+  .landing-1 {
+    min-height: 6.76rem;
+    padding: 1.66rem 0.4rem 0.78rem 0.4rem;
+  }
+  .landing-1 .title {
+    width: 6rem;
+  }
+  .landing-1 .msg {
+    font-size: 0.26rem;
+    line-height: 0.3rem;
+    padding: 0.34rem 0 0.58rem 0;
+    max-width: 5.86rem;
+  }
+  .landing-1 .btn {
+    padding-bottom: 0.9rem;
+  }
+  .landing-1 .btn a {
+    width: 2.52rem;
+    height: 0.64rem;
+    line-height: 0.6rem;
+    margin-right: 0.34rem;
+    font-size: 0.24rem;
+  }
+  .landing-1 .tips {
+    height: 0.4rem;
+    font-size: 0.18rem;
+    width: 6.86rem;
+    position: relative;
+    left: -0.08rem;
+  }
+  .landing-1 .tips img {
+    width: 1.14rem;
+  }
+  .landing-2 {
+    padding: 1.7rem 0.4rem;
+  }
+  .landing-2 .img {
+    width: 4.68rem;
+    margin: 0 auto;
+  }
+  .landing-2 .col {
+    width: 100%;
+    padding-top: 0.64rem;
+  }
+  .landing-2 .col .title div {
+    font-size: 0.2rem;
+  }
+  .landing-2 .col .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-2 .col .content {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-2 .col li {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding: 0 0 0.26rem 0.64rem;
+  }
+  .landing-2 .col li:after {
+    width: 0.48rem;
+    height: 0.6rem;
+    background-size: 0.2rem;
+  }
+  .landing-3 {
+    padding: 1.07rem 0.4rem;
+  }
+  .landing-3 .title div {
+    font-size: 0.2rem;
+  }
+  .landing-3 .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-3 .title p {
+    padding: 0 0 0.66rem 0;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-3 .list {
+    margin-left: -0.18rem;
+    margin-right: -0.18rem;
+  }
+  .landing-3 .list li {
+    width: 100%;
+    padding: 0 0 0.6rem 0.3rem;
+  }
+  .landing-3 .list .box {
+    min-height: 6rem;
+    padding: 0.6rem 0.36rem;
+  }
+  .landing-3 .list .box .ico {
+    width: 1.2rem;
+  }
+  .landing-3 .list .box h3 {
+    font-size: 0.32rem;
+    padding: 0.32rem 0 0.4rem 0;
+  }
+  .landing-3 .list .box p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-4 {
+    padding: 1.4rem 0.4rem;
+  }
+  .landing-4 .title div {
+    font-size: 0.2rem;
+  }
+  .landing-4 .title h2 {
+    padding: 0.2rem 0;
+    font-size: 0.4rem;
+    line-height: 0.48rem;
+  }
+  .landing-4 .title p {
+    padding: 0 0 0.2rem 0;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+  .landing-4 .list {
+    margin-right: -0.4rem;
+    margin-left: -0.4rem;
+    background-size: 100%;
+    padding: 0 0.54rem;
+  }
+  .landing-4 .list li {
+    width: 100%;
+    padding-bottom: 0.6rem;
+  }
+  .landing-4 .list li .ico img {
+    height: 0.94rem;
+  }
+  .landing-4 .list li .name {
+    font-size: 0.2rem;
+    padding: 0.58rem 0 0.12rem 0;
+  }
+  .landing-4 .list li h3 {
+    font-size: 0.32rem;
+    padding-bottom: 0.12rem;
+  }
+  .landing-4 .list li p {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+  }
+}
