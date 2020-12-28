@@ -50,7 +50,6 @@ var web3_1 = require("../../utils/web3");
 var shareView_1 = require("src/components/shareView");
 function SageDetail() {
     var _this = this;
-    var chainIdHex = react_1.useContext(umiDapp_1.UMIDapptContext).chainIdHex;
     var account = react_1.useContext(umiDapp_1.UMIDapptContext).account;
     var initDapp = react_1.useContext(umiDapp_1.UMIDapptContext).initDapp;
     var dappReady = react_1.useContext(umiDapp_1.UMIDapptContext).dappReady;
@@ -58,19 +57,16 @@ function SageDetail() {
     var checkRegister = react_1.useContext(umiDapp_1.UMIDapptContext).checkRegister;
     var requestRegistered = react_1.useContext(umiDapp_1.UMIDapptContext).requestRegistered;
     var _a = react_1.useState(true), loading = _a[0], setLoading = _a[1];
-    //页面数据
-    var _b = react_1.useState('0'), mineTotal = _b[0], setMineTotal = _b[1];
-    var _c = react_1.useState('0'), investTotal = _c[0], setInvestTotal = _c[1];
-    var _d = react_1.useState('0'), userMine = _d[0], setUserMine = _d[1];
-    var _e = react_1.useState('0'), userEarn = _e[0], setUserEarn = _e[1];
-    var _f = react_1.useState(0), partners = _f[0], setPartners = _f[1];
-    var _g = react_1.useState('0'), referrer = _g[0], setReferrer = _g[1];
-    var _h = react_1.useState(), sageDataSource = _h[0], setSageDataSource = _h[1];
+    var _b = react_1.useState('0'), userMine = _b[0], setUserMine = _b[1];
+    var _c = react_1.useState('0'), userEarn = _c[0], setUserEarn = _c[1];
+    var _d = react_1.useState(0), partners = _d[0], setPartners = _d[1];
+    var _e = react_1.useState('0'), referrer = _e[0], setReferrer = _e[1];
+    var _f = react_1.useState(), sageDataSource = _f[0], setSageDataSource = _f[1];
     //share link
     var inviterUrl = react_1.useMemo(function () {
         return appConfig_1.appUrl + "/register/" + account;
     }, [account]);
-    var _j = react_1.useState(false), showShare = _j[0], setShowShare = _j[1];
+    var _g = react_1.useState(false), showShare = _g[0], setShowShare = _g[1];
     var doShowShare = function () {
         setShowShare(true);
     };
@@ -136,20 +132,20 @@ function SageDetail() {
         });
     }); };
     var queryUserSageData = function (address) { return __awaiter(_this, void 0, void 0, function () {
-        var dataArray, i, levelData, active, matrix, x3Reward, x2Reward, x3Mined, totalReward, totalEth, error_2;
+        var dataArray, i, levelData, active, matrix, x3Reward, x2Reward, x3Mined, totalEth, error_2;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     console.log("getSageData:accountAddress:" + address);
-                    if (!address) return [3 /*break*/, 13];
+                    if (!address) return [3 /*break*/, 12];
                     _a.label = 1;
                 case 1:
-                    _a.trys.push([1, 12, , 13]);
+                    _a.trys.push([1, 11, , 12]);
                     dataArray = new Array();
                     i = 1;
                     _a.label = 2;
                 case 2:
-                    if (!(i <= appConfig_1.sageLevelCount)) return [3 /*break*/, 11];
+                    if (!(i <= appConfig_1.sageLevelCount)) return [3 /*break*/, 10];
                     levelData = new levelData_1.LevelData();
                     levelData.level = i;
                     levelData.levelPrice = appConfig_1.sageLevelPrices[i - 1];
@@ -159,7 +155,7 @@ function SageDetail() {
                 case 3:
                     active = _a.sent();
                     levelData.active = active;
-                    if (!active) return [3 /*break*/, 9];
+                    if (!active) return [3 /*break*/, 8];
                     return [4 /*yield*/, contract_1.sageContract.methods
                             .usersMatrix(address, i)
                             .call()];
@@ -180,11 +176,6 @@ function SageDetail() {
                             .call()];
                 case 7:
                     x3Mined = _a.sent();
-                    return [4 /*yield*/, contract_1.sageContract.methods
-                            .queryUserTotalReward(address)
-                            .call()];
-                case 8:
-                    totalReward = _a.sent();
                     levelData.blcoked = matrix[3];
                     levelData.x3matrix = matrix[1].length;
                     levelData.x2matrix = matrix[2].length;
@@ -205,24 +196,24 @@ function SageDetail() {
                         levelData.x3matrixArray = new Array().concat(matrix[1]);
                     if (matrix[2].length > 0)
                         levelData.x2matrixArray = new Array().concat(matrix[2]);
-                    _a.label = 9;
-                case 9:
+                    _a.label = 8;
+                case 8:
                     console.log("LevelData:" + JSON.stringify(levelData));
                     dataArray.push(levelData);
-                    _a.label = 10;
-                case 10:
+                    _a.label = 9;
+                case 9:
                     i++;
                     return [3 /*break*/, 2];
-                case 11:
+                case 10:
                     setSageDataSource(dataArray);
                     setLoading(false);
-                    return [3 /*break*/, 13];
-                case 12:
+                    return [3 /*break*/, 12];
+                case 11:
                     error_2 = _a.sent();
                     setLoading(false);
                     console.log(error_2);
-                    return [3 /*break*/, 13];
-                case 13: return [2 /*return*/];
+                    return [3 /*break*/, 12];
+                case 12: return [2 /*return*/];
             }
         });
     }); };

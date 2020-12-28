@@ -51,7 +51,7 @@ var format_addr_1 = require("src/utils/format-addr");
 var shareView_1 = require("src/components/shareView");
 function PoolOpen() {
     var _this = this;
-    var chainIdHex = react_1.useContext(umiDapp_1.UMIDapptContext).chainIdHex;
+    // const { chainIdHex } = useContext(UMIDapptContext)
     var account = react_1.useContext(umiDapp_1.UMIDapptContext).account;
     var initDapp = react_1.useContext(umiDapp_1.UMIDapptContext).initDapp;
     var dappReady = react_1.useContext(umiDapp_1.UMIDapptContext).dappReady;

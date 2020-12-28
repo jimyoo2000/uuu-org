@@ -1,9 +1,7 @@
-import React, { Component, useContext, useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom';
+import React, { useContext, useEffect, useMemo, useState } from 'react'
 import { appUrl } from 'src/config/appConfig';
 import { UMIDapptContext } from 'src/context/umiDapp';
 
-import QRCode from 'qrcode.react';
 import CommonHeader from '../header';
 import copy from "copy-to-clipboard";
 import { message } from 'antd';
@@ -13,14 +11,12 @@ import { telegramLink, twitterLink } from 'src/config/linkConfig';
 
 function RegisterOK() {
 
-  const { chainIdHex } = useContext(UMIDapptContext)
   const { account } = useContext(UMIDapptContext)
 
 
   const { initDapp } = useContext(UMIDapptContext)
   const { dappReady } = useContext(UMIDapptContext)
 
-  const { registered } = useContext(UMIDapptContext)
   const { checkRegister } = useContext(UMIDapptContext)
   const { requestRegistered } = useContext(UMIDapptContext)
 

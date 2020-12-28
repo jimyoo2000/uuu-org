@@ -9,8 +9,8 @@ var contract_1 = require("src/contract");
 var web3_1 = require("src/utils/web3");
 var appConfig_1 = require("src/config/appConfig");
 function Chrismas() {
-    var chainIdHex = react_1.useContext(umiDapp_1.UMIDapptContext).chainIdHex;
-    var account = react_1.useContext(umiDapp_1.UMIDapptContext).account;
+    // const { chainIdHex } = useContext(UMIDapptContext)
+    // const { account } = useContext(UMIDapptContext)
     var initDapp = react_1.useContext(umiDapp_1.UMIDapptContext).initDapp;
     var dappReady = react_1.useContext(umiDapp_1.UMIDapptContext).dappReady;
     var registered = react_1.useContext(umiDapp_1.UMIDapptContext).registered;

@@ -16,7 +16,6 @@ import CommonHeader from '../header';
 
 function SageV2Detail() {
 
-  const { chainIdHex } = useContext(UMIDapptContext)
   const { account } = useContext(UMIDapptContext)
 
   const { initDapp } = useContext(UMIDapptContext)
@@ -43,9 +42,6 @@ function SageV2Detail() {
   const [contributionTotal, setContributionTotal] = useState<string>('0');
   //静态
   const [staticProfitRate, setStaticProfitRate] = useState<number>(0.0);
-  const [totalStaticProfit, setTotalStaticProfit] = useState<number>(0.0);
-  const [avalableStaticProfit, setAvalableStaticProfit] = useState<number>(0.0);
-  const [withdrawStaticProfit, setWithdrawStaticProfit] = useState<number>(0.0);
 
   //share link
   const inviterUrl = useMemo(() => {
@@ -157,10 +153,10 @@ function SageV2Detail() {
             const x3Mined = await sageV2Contract.methods
               .queryUserX3LevelMine(address, i)
               .call();
-            //
-            const totalReward = await sageV2Contract.methods
-              .queryUserTotalReward(address)
-              .call();
+            // //
+            // const totalReward = await sageV2Contract.methods
+            //   .queryUserTotalReward(address)
+            //   .call();
 
             levelData.blcoked = matrix[3]
             levelData.x3matrix = matrix[1].length

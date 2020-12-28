@@ -19,7 +19,7 @@ function Home() {
             Unprecedented mining experience, easily to get
             benefits from the blockchain.
         </div>
-          {/* <div className="btn2 wow fadeInUp"><a href={umiPaperLink} target="_blank"><em>Learn more in Lite-Paper</em><img src="/assets/image/img24_5.png" alt=""/></a></div> */}
+          {/* <div className="btn2 wow fadeInUp"><a href={umiPaperLink} target="_blank" rel="noopener noreferrer"><em>Learn more in Lite-Paper</em><img src="/assets/image/img24_5.png" alt=""/></a></div> */}
           <div className="btn wow fadeInUp">
             <a href={umiPaperLink} className="on">LitePaper</a>
             <Link to="/sagev2/" >Unisage</Link><br />
@@ -148,32 +148,32 @@ function Home() {
           </div>
           <div className="list">
             <ul>
-              <li className="wow fadeInUp"><a href="https://pro.coinbase.com" target="_blank"><img src="/assets/image/img200_1.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://bitfinex.com" target="_blank"><img src="/assets/image/img200_2.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://bitflyer.com" target="_blank"><img src="/assets/image/img200_3.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://binance.com" target="_blank"> <img src="/assets/image/img200_4.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://bitstamp.net" target="_blank"><img src="/assets/image/img200_5.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://ftx.com" target="_blank" ><img src="/assets/image/img200_6.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://kraken.com" target="_blank"><img src="/assets/image/img200_7.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://huobi.com" target="_blank"><img src="/assets/image/img200_8.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://upbit.com" target="_blank"><img src="/assets/image/img200_9.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://okex.com" target="_blank"><img src="/assets/image/img200_10.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://poloniex.com" target="_blank"><img src="/assets/image/img200_11.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://bittrex.com" target="_blank"><img src="/assets/image/img200_12.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://liquid.com" target="_blank"><img src="/assets/image/img200_13.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://pro.btcturk.com" target="_blank"><img src="/assets/image/img200_14.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://indodax.com" target="_blank"><img src="/assets/image/img200_15.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://www.paribu.com" target="_blank"><img src="/assets/image/img200_16.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://zaif.jp" target="_blank"><img src="/assets/image/img200_17.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://bitso.com" target="_blank"><img src="/assets/image/img200_18.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://gate.io" target="_blank"><img src="/assets/image/img200_19.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://gemini.com" target="_blank"><img src="/assets/image/img200_20.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://www.mercadobitcoin.com.br" target="_blank"><img src="/assets/image/img200_21.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://www.korbit.co.kr" target="_blank"><img src="/assets/image/img200_22.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://cex.io" target="_blank"><img src="/assets/image/img200_23.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://wazirx.com" target="_blank"><img src="/assets/image/img200_24.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://www.chiliz.net" target="_blank"><img src="/assets/image/img200_25.png" alt="" /></a></li>
-              <li className="wow fadeInUp"><a href="https://www.mexo.io" target="_blank"><img src="/assets/image/img200_26.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://pro.coinbase.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_1.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://bitfinex.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_2.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://bitflyer.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_3.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://binance.com" target="_blank" rel="noopener noreferrer"> <img src="/assets/image/img200_4.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://bitstamp.net" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_5.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://ftx.com" target="_blank" rel="noopener noreferrer" ><img src="/assets/image/img200_6.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://kraken.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_7.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://huobi.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_8.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://upbit.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_9.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://okex.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_10.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://poloniex.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_11.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://bittrex.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_12.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://liquid.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_13.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://pro.btcturk.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_14.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://indodax.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_15.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://www.paribu.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_16.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://zaif.jp" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_17.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://bitso.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_18.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://gate.io" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_19.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://gemini.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_20.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://www.mercadobitcoin.com.br" target="_blank" rel="noopener noreferrer" ><img src="/assets/image/img200_21.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://www.korbit.co.kr" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_22.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://cex.io" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_23.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://wazirx.com" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_24.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://www.chiliz.net" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_25.png" alt="" /></a></li>
+              <li className="wow fadeInUp"><a href="https://www.mexo.io" target="_blank" rel="noopener noreferrer"><img src="/assets/image/img200_26.png" alt="" /></a></li>
             </ul>
           </div>
         </div>

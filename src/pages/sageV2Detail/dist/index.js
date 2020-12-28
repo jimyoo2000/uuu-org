@@ -51,7 +51,6 @@ var sagev2ItemActive_1 = require("src/components/sagev2ItemActive/sagev2ItemActi
 var header_1 = require("../header");
 function SageV2Detail() {
     var _this = this;
-    var chainIdHex = react_1.useContext(umiDapp_1.UMIDapptContext).chainIdHex;
     var account = react_1.useContext(umiDapp_1.UMIDapptContext).account;
     var initDapp = react_1.useContext(umiDapp_1.UMIDapptContext).initDapp;
     var dappReady = react_1.useContext(umiDapp_1.UMIDapptContext).dappReady;
@@ -72,14 +71,11 @@ function SageV2Detail() {
     var _k = react_1.useState('0'), contributionTotal = _k[0], setContributionTotal = _k[1];
     //静态
     var _l = react_1.useState(0.0), staticProfitRate = _l[0], setStaticProfitRate = _l[1];
-    var _m = react_1.useState(0.0), totalStaticProfit = _m[0], setTotalStaticProfit = _m[1];
-    var _o = react_1.useState(0.0), avalableStaticProfit = _o[0], setAvalableStaticProfit = _o[1];
-    var _p = react_1.useState(0.0), withdrawStaticProfit = _p[0], setWithdrawStaticProfit = _p[1];
     //share link
     var inviterUrl = react_1.useMemo(function () {
         return appConfig_1.appUrl + "/register/" + account;
     }, [account]);
-    var _q = react_1.useState(false), showShare = _q[0], setShowShare = _q[1];
+    var _m = react_1.useState(false), showShare = _m[0], setShowShare = _m[1];
     var doShowShare = function () {
         setShowShare(true);
     };
@@ -156,20 +152,20 @@ function SageV2Detail() {
         });
     }); };
     var queryUserSageData = function (address) { return __awaiter(_this, void 0, void 0, function () {
-        var dataArray, i, levelData, active, matrix, x3Reward, x2Reward, x3Mined, totalReward, x3ethValue, reopen, totalEth, error_2;
+        var dataArray, i, levelData, active, matrix, x3Reward, x2Reward, x3Mined, x3ethValue, reopen, totalEth, error_2;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     console.log("getSageData:accountAddress:" + address);
-                    if (!address) return [3 /*break*/, 13];
+                    if (!address) return [3 /*break*/, 12];
                     _a.label = 1;
                 case 1:
-                    _a.trys.push([1, 12, , 13]);
+                    _a.trys.push([1, 11, , 12]);
                     dataArray = new Array();
                     i = 1;
                     _a.label = 2;
                 case 2:
-                    if (!(i <= appConfig_1.sageLevelCount)) return [3 /*break*/, 11];
+                    if (!(i <= appConfig_1.sageLevelCount)) return [3 /*break*/, 10];
                     levelData = new levelData_1.LevelData();
                     levelData.level = i;
                     levelData.levelPrice = appConfig_1.sagev2LevelPrices[i - 1];
@@ -179,7 +175,7 @@ function SageV2Detail() {
                 case 3:
                     active = _a.sent();
                     levelData.active = active;
-                    if (!active) return [3 /*break*/, 9];
+                    if (!active) return [3 /*break*/, 8];
                     return [4 /*yield*/, contract_1.sageV2Contract.methods
                             .usersMatrix(address, i)
                             .call()];
@@ -200,11 +196,10 @@ function SageV2Detail() {
                             .call()];
                 case 7:
                     x3Mined = _a.sent();
-                    return [4 /*yield*/, contract_1.sageV2Contract.methods
-                            .queryUserTotalReward(address)
-                            .call()];
-                case 8:
-                    totalReward = _a.sent();
+                    // //
+                    // const totalReward = await sageV2Contract.methods
+                    //   .queryUserTotalReward(address)
+                    //   .call();
                     levelData.blcoked = matrix[3];
                     levelData.x3matrix = matrix[1].length;
                     levelData.x2matrix = matrix[2].length;
@@ -228,24 +223,24 @@ function SageV2Detail() {
                         levelData.x3matrixArray = new Array().concat(matrix[1]);
                     if (matrix[2].length > 0)
                         levelData.x2matrixArray = new Array().concat(matrix[2]);
-                    _a.label = 9;
-                case 9:
+                    _a.label = 8;
+                case 8:
                     console.log("LevelData:" + JSON.stringify(levelData));
                     dataArray.push(levelData);
-                    _a.label = 10;
-                case 10:
+                    _a.label = 9;
+                case 9:
                     i++;
                     return [3 /*break*/, 2];
-                case 11:
+                case 10:
                     setSageDataSource(dataArray);
                     setLoading(false);
-                    return [3 /*break*/, 13];
-                case 12:
+                    return [3 /*break*/, 12];
+                case 11:
                     error_2 = _a.sent();
                     setLoading(false);
                     console.log(error_2);
-                    return [3 /*break*/, 13];
-                case 13: return [2 /*return*/];
+                    return [3 /*break*/, 12];
+                case 12: return [2 /*return*/];
             }
         });
     }); };

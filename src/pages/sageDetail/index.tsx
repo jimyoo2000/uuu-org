@@ -9,12 +9,11 @@ import formatNumber from 'src/utils/format-number';
 import { LevelData } from 'src/interfaces/levelData';
 import SageItemActive from 'src/components/sageItemActive/sageItemActive';
 import web3 from '../../utils/web3'
-import CommonHeader from '../header';
 import ShareView from 'src/components/shareView';
 
 function SageDetail() {
 
-  const { chainIdHex } = useContext(UMIDapptContext)
+
   const { account } = useContext(UMIDapptContext)
 
   const { initDapp } = useContext(UMIDapptContext)
@@ -24,10 +23,6 @@ function SageDetail() {
   const { checkRegister } = useContext(UMIDapptContext)
   const { requestRegistered } = useContext(UMIDapptContext)
   const [loading, setLoading] = useState<boolean>(true);
-
-  //页面数据
-  const [mineTotal, setMineTotal] = useState<string>('0');
-  const [investTotal, setInvestTotal] = useState<string>('0')
 
   const [userMine, setUserMine] = useState<string>('0')
   const [userEarn, setUserEarn] = useState<string>('0')
@@ -132,10 +127,6 @@ function SageDetail() {
             //x3 mine umi queryUserX3LevelMine
             const x3Mined = await sageContract.methods
               .queryUserX3LevelMine(address, i)
-              .call();
-            //
-            const totalReward = await sageContract.methods
-              .queryUserTotalReward(address)
               .call();
 
             levelData.blcoked = matrix[3]

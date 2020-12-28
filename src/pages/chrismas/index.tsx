@@ -1,4 +1,4 @@
-import React, { Component, useContext, useEffect, useMemo, useState } from 'react'
+import React, {  useContext, useEffect } from 'react'
 import { message } from 'antd';
 import { telegramLink, twitterLink } from 'src/config/linkConfig';
 import { UMIDapptContext } from 'src/context/umiDapp';
@@ -10,8 +10,8 @@ import { chrimasContractAddr, chrimasContractScanUrl } from 'src/config/appConfi
 
 function Chrismas() {
 
-  const { chainIdHex } = useContext(UMIDapptContext)
-  const { account } = useContext(UMIDapptContext)
+  // const { chainIdHex } = useContext(UMIDapptContext)
+  // const { account } = useContext(UMIDapptContext)
 
 
   const { initDapp } = useContext(UMIDapptContext)

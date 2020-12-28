@@ -1,7 +1,7 @@
 import { message, Spin } from 'antd';
 import React, { Component, useContext, useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom';
-import { appUrl, sageContractAddr, salePeriodIndex, salePeriodName, salePeriodRatio, salePeriodTotal } from 'src/config/appConfig';
+import { appUrl } from 'src/config/appConfig';
 import { UMIDapptContext } from 'src/context/umiDapp';
 import { sageV2Contract } from 'src/contract';
 
@@ -17,7 +17,7 @@ import ShareView from 'src/components/shareView';
 
 function PoolOpen() {
 
-  const { chainIdHex } = useContext(UMIDapptContext)
+  // const { chainIdHex } = useContext(UMIDapptContext)
   const { account } = useContext(UMIDapptContext)
 
   const { initDapp } = useContext(UMIDapptContext)

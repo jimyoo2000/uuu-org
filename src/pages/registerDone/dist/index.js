@@ -10,11 +10,9 @@ var contract_1 = require("src/contract");
 var shareView_1 = require("src/components/shareView");
 var linkConfig_1 = require("src/config/linkConfig");
 function RegisterOK() {
-    var chainIdHex = react_1.useContext(umiDapp_1.UMIDapptContext).chainIdHex;
     var account = react_1.useContext(umiDapp_1.UMIDapptContext).account;
     var initDapp = react_1.useContext(umiDapp_1.UMIDapptContext).initDapp;
     var dappReady = react_1.useContext(umiDapp_1.UMIDapptContext).dappReady;
-    var registered = react_1.useContext(umiDapp_1.UMIDapptContext).registered;
     var checkRegister = react_1.useContext(umiDapp_1.UMIDapptContext).checkRegister;
     var requestRegistered = react_1.useContext(umiDapp_1.UMIDapptContext).requestRegistered;
     var _a = react_1.useState(false), shownShare = _a[0], setShownShare = _a[1];
