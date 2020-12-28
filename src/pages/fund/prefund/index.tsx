@@ -23,6 +23,9 @@ class NullTimer implements NodeJS.Timer {
   constructor() {
 
   }
+  [Symbol.toPrimitive](): number {
+    throw new Error('Method not implemented.');
+  }
 
   hasRef() {
     return false;

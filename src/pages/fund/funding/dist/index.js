@@ -25,6 +25,9 @@ var dapp_brower_checker_1 = require("src/utils/dapp-brower-checker");
 var NullTimer = /** @class */ (function () {
     function NullTimer() {
     }
+    NullTimer.prototype[Symbol.toPrimitive] = function () {
+        throw new Error('Method not implemented.');
+    };
     NullTimer.prototype.hasRef = function () {
         return false;
     };
