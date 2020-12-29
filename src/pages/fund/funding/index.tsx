@@ -166,8 +166,8 @@ class Funding extends React.Component<RouteChildrenProps, IPrefundState> {
             !walletBrower && (<div className="msg wow fadeInUp">
               <div className="ico"><img src="/assets/image/img85.png" alt="" /></div>
               <p>Install Ethereum wallet to purchase UMI cryptocurrency.</p>
-              <p>It’s recommended to use: <a href={metamaskLink} target="_blank">Metamask</a>(Chrome extension & Firefox extension), <a href={imtokenLink} target="_blank">imToken</a>,<a href={trustWalletLink} target="_blank">Trustwallet</a>,<a
-                href={coinbaseLink} target="_blank">Coinbase</a> etc.</p>
+              <p>It’s recommended to use: <a href={metamaskLink} target="_blank" rel="noopener noreferrer">Metamask</a>(Chrome extension & Firefox extension), <a href={imtokenLink} target="_blank" rel="noopener noreferrer">imToken</a>,<a href={trustWalletLink} target="_blank">Trustwallet</a>,<a
+                href={coinbaseLink} target="_blank" rel="noopener noreferrer">Coinbase</a> etc.</p>
             </div>)
           }
         </div>
@@ -184,11 +184,11 @@ class Funding extends React.Component<RouteChildrenProps, IPrefundState> {
         </div>
             <div className="msg wow fadeInUp">
               <div className="name">Smart contract</div>
-              <a href={fundContractScanUrl} target="_blank">{fundContractAddr}</a>
+              <a href={fundContractScanUrl} target="_blank" rel="noopener noreferrer">{fundContractAddr}</a>
             </div>
             <div className="btn wow fadeInUp">
-              <a href={sagePaperLink} target="_blank"><em>ABOUT UNISAGE</em><img src="/assets/image/img20.png" alt="" /></a>
-              <a href={sagePaperLink} target="_blank"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a>
+              <a href={sagePaperLink} target="_blank" rel="noopener noreferrer"><em>ABOUT UNISAGE</em><img src="/assets/image/img20.png" alt="" /></a>
+              <a href={sagePaperLink} target="_blank" rel="noopener noreferrer"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a>
             </div>
           </div>
         </div>

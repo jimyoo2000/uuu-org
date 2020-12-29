@@ -27,7 +27,7 @@ function About() {
               <dd><em>Registered ID :</em><b>20201892442</b></dd>
               <dd><em>Country :</em><b>USA</b></dd>
               <dt><a href="https://www.sos.state.co.us/biz/BusinessEntityDetail.do?quitButtonDestination=BusinessEntityResults&nameTyp=ENT&masterFileId=20201892442&entityId2=20201892442&fileId=20201892442&srchTyp=ENTITY" target="_blank">Checkout Company Status</a></dt>
-              <dt><a href="/assets/pdf/Unimine_CERT_GS_D.pdf" target="_blank" >Checkout Cetificate</a></dt>
+              <dt><a href="/assets/pdf/Unimine_CERT_GS_D.pdf" target="_blank" rel="noopener noreferrer">Checkout Cetificate</a></dt>
             </dl>
             <div className="img wow fadeInUp"><img src="/assets/image/img700.png" alt="" /></div>
           </div>

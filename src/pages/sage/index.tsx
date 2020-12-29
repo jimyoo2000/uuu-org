@@ -197,8 +197,8 @@ function SageIndex() {
               Authorized and started mining to obtain UMI.The Ethereum wallet needs to be installed and authorized to obtain the wallet address to bind a unique identity.
             </p>
             <div className="btn">
-              <a href={sagePaperLink} target="_blank">What is the UNISAGE?<img src="/assets/image/img24_5.png" alt="" /></a>
-              <a href={sagePaperLink} target="_blank">How to participate and get benefits<img src="/assets/image/img24_5.png" alt="" /></a>
+              <a href={sagePaperLink} target="_blank" rel="noopener noreferrer">What is the UNISAGE?<img src="/assets/image/img24_5.png" alt="" /></a>
+              <a href={sagePaperLink} target="_blank" rel="noopener noreferrer">How to participate and get benefits<img src="/assets/image/img24_5.png" alt="" /></a>
             </div>
           </div>
           <div className="list wow fadeInUp">
@@ -314,8 +314,8 @@ function SageIndex() {
             <p>{sageContractAddr}</p>
           </div>
           <div className="btn wow fadeInUp">
-            <a href={sagePaperLink} target="_blank"><em>ABOUT UNISAGE</em><img src="/assets/image/img20.png" alt="" /></a>
-            <a href={umiPaperLink} target="_blank"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a>
+            <a href={sagePaperLink} target="_blank" rel="noopener noreferrer"><em>ABOUT UNISAGE</em><img src="/assets/image/img20.png" alt="" /></a>
+            <a href={umiPaperLink} target="_blank" rel="noopener noreferrer"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a>
           </div>
         </div>
       </div>

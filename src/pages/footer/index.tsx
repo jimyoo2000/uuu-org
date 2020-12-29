@@ -18,7 +18,7 @@ function CommonFooter() {
             <dd><a href={twitterLink} target="_blank" rel="noopener noreferrer" ><img src="/assets/image/ic_tw.png" alt="" /></a></dd>
             <dd><a href={youtubeLink} target="_blank" rel="noopener noreferrer" ><img src="/assets/image/ic_ytb.png" alt="" /></a></dd>
           </dl>
-          <p><a href="mailto:info@unimine.org" target="_blank">info@unimine.org</a></p>
+          <p><a href="mailto:info@unimine.org" target="_blank" rel="noopener noreferrer">info@unimine.org</a></p>
         </div>
         <div className="list">
           <ul>

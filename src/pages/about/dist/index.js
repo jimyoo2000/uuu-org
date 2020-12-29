@@ -33,7 +33,7 @@ function About() {
                         react_1["default"].createElement("dt", null,
                             react_1["default"].createElement("a", { href: "https://www.sos.state.co.us/biz/BusinessEntityDetail.do?quitButtonDestination=BusinessEntityResults&nameTyp=ENT&masterFileId=20201892442&entityId2=20201892442&fileId=20201892442&srchTyp=ENTITY", target: "_blank" }, "Checkout Company Status")),
                         react_1["default"].createElement("dt", null,
-                            react_1["default"].createElement("a", { href: "/assets/pdf/Unimine_CERT_GS_D.pdf", target: "_blank" }, "Checkout Cetificate"))),
+                            react_1["default"].createElement("a", { href: "/assets/pdf/Unimine_CERT_GS_D.pdf", target: "_blank", rel: "noopener noreferrer" }, "Checkout Cetificate"))),
                     react_1["default"].createElement("div", { className: "img wow fadeInUp" },
                         react_1["default"].createElement("img", { src: "/assets/image/img700.png", alt: "" }))),
                 react_1["default"].createElement("div", { className: "foot wow fadeInUp" },

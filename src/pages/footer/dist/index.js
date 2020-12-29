@@ -25,7 +25,7 @@ function CommonFooter() {
                         react_1["default"].createElement("a", { href: linkConfig_1.youtubeLink, target: "_blank", rel: "noopener noreferrer" },
                             react_1["default"].createElement("img", { src: "/assets/image/ic_ytb.png", alt: "" })))),
                 react_1["default"].createElement("p", null,
-                    react_1["default"].createElement("a", { href: "mailto:info@unimine.org", target: "_blank" }, "info@unimine.org"))),
+                    react_1["default"].createElement("a", { href: "mailto:info@unimine.org", target: "_blank", rel: "noopener noreferrer" }, "info@unimine.org"))),
             react_1["default"].createElement("div", { className: "list" },
                 react_1["default"].createElement("ul", null,
                     react_1["default"].createElement("li", null,

@@ -109,7 +109,7 @@ var Prefund = /** @class */ (function (_super) {
                         react_1["default"].createElement("div", null, "What do we do?")),
                     react_1["default"].createElement("div", { className: "content wow fadeInUp" }, "Unimine is the best platform to get started mining cryptocurrency. It is the easiest platform for beginners to easily get into Blockchain.Unimine is the best platform to get started mining cryptocurrency. It is the easiest platform for beginners to easily get into Blockchain."),
                     react_1["default"].createElement("div", { className: "btn wow fadeInUp" },
-                        react_1["default"].createElement("a", { href: linkConfig_1.umiPaperLink, target: "_blank" },
+                        react_1["default"].createElement("a", { href: linkConfig_1.umiPaperLink, target: "_blank", rel: "noopener noreferrer" },
                             react_1["default"].createElement("em", null, "ABOUT UMI-Token"),
                             react_1["default"].createElement("img", { src: "/assets/image/img20.png", alt: "" })))))));
     };

@@ -133,7 +133,7 @@ class Prefund extends React.Component<RouteChildrenProps, IPrefundState> {
             <div className="content wow fadeInUp">
               Unimine is the best platform to get started mining cryptocurrency. It is the easiest platform for beginners to easily get into Blockchain.Unimine is the best platform to get started mining cryptocurrency. It is the easiest platform for beginners to easily get into Blockchain.
           </div>
-            <div className="btn wow fadeInUp"><a href={umiPaperLink} target="_blank"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a></div>
+            <div className="btn wow fadeInUp"><a href={umiPaperLink} target="_blank" rel="noopener noreferrer"><em>ABOUT UMI-Token</em><img src="/assets/image/img20.png" alt="" /></a></div>
           </div>
         </div>
       </div>
